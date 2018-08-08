@@ -1,0 +1,173 @@
+body {
+	margin: 0;
+	
+	font-size: 15px;
+	background: black; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, black, gray); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, gray, black); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, black, gray); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, black, gray); /* Standard syntax */
+}
+
+.division1 {
+	float: left;
+	margin-top: 0;
+	background-image: url("job.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	min-height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	color: white;
+}
+
+#field2 {
+	background-color: rgba(0,0,0,0.5);
+	position: relative;
+	margin: auto;
+	margin-top: 100px;
+	width: 25%;
+	min-width: 250px;
+	border: 0;
+	text-align: center;
+}
+
+#siteName {
+	margin: 0;
+	font: bold 15pt Arial;
+	text-align: left;
+	color: white;
+}
+
+#signUpForm input {
+	width: 95%;
+	height: 25px;
+}
+
+#signUpForm {
+	position: relative;
+	height: 100%;
+	text-align: center;
+}
+
+.topnav {
+	padding: 10px;
+	background-color: black;
+	position: relative;
+}
+
+#login {
+	position: absolute;
+	background: #eee;
+	border-radius: 3px;
+	right: 10px;
+	top: 50%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	transform: translateY(-50%);
+}
+
+/*img {
+	margin-left: 2%;
+	width: 15%;
+	height: 32%;
+	float: right;
+	opacity: 0.5;
+	width: 20%;
+	height: 32%;
+}*/
+
+#login-trigger {
+	border-radius: 3px;
+	padding: 8px;
+	text-decoration: none;
+	color: #444;
+	text-shadow: 0 1px 0 #fff;
+	font-weight: bold;
+	text-align: center;
+	font-size: 17px;
+}
+
+#login-trigger:hover {
+	background: #fff;
+}
+
+#login-content {
+	display: none;
+	position: absolute;
+	top: 200%;
+	right: 10px;
+	z-index: 999;
+	background: #fff;
+	border-radius: 3px 0 3px 3px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+#login-content {
+	padding: 10px;
+	width: 250px;
+}
+
+input:not([type=checkbox]) {
+	opacity: 1;
+	background: #f1f1f1;
+	padding: 6px 5px;
+	margin: 0 0 5px 0;
+	width: 230px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px #ccc inset;
+}
+
+input:focus {
+	background-color: #fff;
+	border-color: #e8c291;
+	outline: none;
+}
+
+#actions, #inputs {
+	padding: 0;
+	width: 100%;
+	border: 0;
+}
+
+#actions {
+	color: white;
+}
+
+.btnstyle, #submit {
+	margin-top: 2px;
+	background-color: #FFD700;
+	border: none;
+	height: 30px;
+	padding: 0;
+	width: 95%;
+	cursor: pointer;
+	font: bold 14px Arial, Helvetica;
+	color: white;
+}
+
+.btnstyle:hover, #submit:hover,
+.btnstyle:focus, #submit:focus {
+	background-color: #FFFF99;
+}
+
+.btnstyle:active, #submit:active {
+	outline: none;
+}
+
+#result {
+	background-color: white;
+	text-align: left;
+	list-style: none;
+	font-size: 12pt;
+}

@@ -1,0 +1,149 @@
+
+body{
+margin: 0 auto;
+}
+#container{
+   margin: 0 auto;
+   height: 1000px;
+   font-size: 15px;
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, black, gray); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, gray, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, black, gray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, black, gray); /* Standard syntax */
+
+}
+
+ #field2{
+ border:0;
+  position: absolute;
+  margin: auto;
+  top: 2;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 35%;
+ background-color: rgba(0,0,0,0.4);
+ }
+ 
+ #settingsForm{
+ position: relative;
+ width: 100%;
+ height:100%;
+ text-align: center;
+
+ }
+ .buttons{
+ height: 20%;
+ position:relative;
+ 
+ }
+
+ #settingsForm > input {
+ height: 22px;
+  background: #f1f1f1;
+  padding: 6px 5px;
+  margin: 0 0 5px 0;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #ccc inset;
+}
+ input:focus {
+  background-color: #fff;
+  border-color: #e8c291;
+  outline: none;
+}
+
+.buttons input{
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+}
+
+
+
+#discard:hover,
+#discard:focus {    
+  background-color: hsla(9, 100%, 64%, 1);
+} 
+
+#change:hover,
+#change:focus {    
+  background-color: #FFFF99;
+} 
+
+#change{
+background-color: #FFD700;
+float: left;
+margin-left: 5%;
+}
+#discard {
+margin-right: 5%;
+float: right;
+background-color: #f44336;
+}
+
+.topnav {
+    background-color:black;
+   overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a:active {
+    background-color: red;
+    color: white;
+}
+.profile-pic {
+    margin: auto;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+    text-align: center;
+    color: transparent;
+    text-decoration: none;
+}
+
+.profile-pic:hover {
+    background-color: rgba(0,0,0,.5);
+    z-index: 10000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.profile-pic span {
+    display: inline-block;
+    padding-top: 4.5em;
+    padding-bottom: 4.5em;
+}
+.file-upload {
+    display: none;
+}
+
+#result {
+	background-color: white;
+	text-align: left;
+	list-style: none;
+	font-size: 12pt;
+}

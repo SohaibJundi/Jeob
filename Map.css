@@ -1,0 +1,92 @@
+body{
+margin: 0 auto;
+}
+#container{
+   margin: 0 auto;
+   height: 1000px;
+   font-size: 15px;
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, black, gray); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, gray, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, black, gray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, black, gray); /* Standard syntax */
+}
+ #map{
+    height: 950px;
+    width: 60%;
+	float: left;
+       }
+	   
+#choices{
+margin-top: 2%;
+float: right;
+width: 40%;
+height: 950px;
+text-align: center;
+}
+select{
+ background: #f1f1f1;
+ border: 1px solid #ccc;
+ border-radius: 3px;
+ box-shadow: 0 1px 1px #ccc inset;
+ height: 30px;
+ width: 90%;
+ margin-left: 6%;
+}
+
+#filtration{
+height: 400px;
+position: relative;
+width: 80%;
+background-color:rgba(0,0,0,0.3);
+margin-left: 10%;
+}
+ select:focus {
+  background-color: #fff;
+  border-color: #e8c291;
+  outline: none;
+}
+
+#search{
+margin-top: 2%;
+ background-color: #FFD700;
+ color: white;
+ padding: 10px 12px;
+ position: relative;
+ border: none;
+ cursor: pointer;
+ text-align:center;
+width: 30%;
+height: 40px;
+}
+#search:hover{    
+  background-color: #FFFF99;
+}
+#search:hover{    
+  background-color: #FFFF99;
+}
+
+
+
+.topnav {
+    height: 50px;
+    background-color: black;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color:#ddd;
+    color: black;
+}
+.topnav a:active {
+    background-color:red;
+    color:white;
+}
